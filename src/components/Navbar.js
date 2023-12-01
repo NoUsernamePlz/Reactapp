@@ -27,8 +27,8 @@ const Navbar = () => {
           </div>
 
           <ul
-            className={`lg:flex items-center sm:max-lg:py-5 md:pb-0  absolute lg:static list-none text-base opacity-100  left-0 right-0 w-[100vw] lg:w-auto md:pl-3  bg-white xs:max-lg:w-[100%] transition-all duration-500 ease-in ${
-              open ? "top-[-10px] left-[-20px] px-[20vw] md:max-lg:[30vw] " : "top-[-490px]"
+            className={`lg:flex items-center sm:max-lg:py-5 md:pb-0  absolute lg:static list-none text-base opacity-100  left-0 right-0 w-[100vw] lg:w-auto md:pl-8  bg-white xs:max-lg:w-[100%] transition-all duration-500 ease-in ${
+              open ? "top-[-10px] left-[-10px] px-[20vw] md:max-lg:[30vw] " : "top-[-490px]"
             } `}
           >
             {Links.map((link) => (
