@@ -58,8 +58,8 @@ const Transaction = () => {
   return (
     <div className='flex items-center justify-center'>
      
-      <form className='w-[60vw] h-[80vh] bg-slate-500 text-white  flex flex-col items-center justify-center'>
-        <div className='w-full h-[15vh] flex items-center justify-center'>
+      <form className='w-[60vw] h-[80vh] bg-slate-500 text-white  flex flex-col items-center justify-center sm:max-lg:w-[100vw]'>
+        <div className='w-full h-[15vh] flex items-center justify-center sm:max-lg:flex-col'>
           <label className='text-xl font-semibold p-3 text-left w-[10vw]'>Wallet Address:</label>
           <input
           className='w-[40vw] h-[5vh] rounded-sm text-black px-2'
@@ -68,7 +68,7 @@ const Transaction = () => {
             onChange={(e) => setWalletAddress(e.target.value)}
           />
         </div>
-        <div className='w-full h-[15vh] flex items-center justify-center'>
+        <div className='w-full h-[15vh] flex items-center justify-center sm:max-lg:flex-col '>
           <label className='text-xl font-semibold p-3 text-left w-[10vw]'>Amount:</label>
           <input
             className='w-[40vw] h-[5vh] rounded-sm text-black px-2' 
@@ -77,7 +77,7 @@ const Transaction = () => {
             onChange={(e) => setAmount(e.target.value)}
           />
         </div>
-        <button type="button" onClick={handleSubmit} className='bg-slate-700 hover:bg-slate-300 w-[8vw] h-[5vh] p-3 flex items-center justify-center rounded-md hover:text-black'>
+        <button type="button" onClick={handleSubmit} className='bg-slate-700 hover:bg-slate-300 w-[8vw] h-[5vh]  sm:max-lg:w-[15vw] p-3 flex items-center justify-center rounded-md hover:text-black'>
           Submit
         </button>
         {error && <p className='text-red-500 text-lg'>{error}</p>}
