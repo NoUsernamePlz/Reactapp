@@ -60,7 +60,7 @@ const Transaction = () => {
      
       <form className='w-[60vw] h-[80vh] bg-slate-500 text-white  flex flex-col items-center justify-center xs:max-lg:w-[100vw]'>
         <div className='w-full h-[15vh] flex items-center justify-center xs:max-lg:flex-col'>
-          <label className='text-xl font-semibold p-3 text-left w-[20vw] xs:max-lg:text-lg'>Wallet Address:</label>
+          <label className='text-xl font-semibold p-3 text-left w-[20vw] xs:max-lg:text-base xs:max-lg:w-[40vw]'>Wallet Address:</label>
           <input
           className='w-[40vw] h-[5vh] rounded-sm text-black px-2'
             type="text"
@@ -69,7 +69,7 @@ const Transaction = () => {
           />
         </div>
         <div className='w-full h-[15vh] flex items-center justify-center xs:max-lg:flex-col '>
-          <label className='text-xl font-semibold p-3 text-left w-[20vw] xs:max-lg:text-lg'>Amount:</label>
+          <label className='text-xl font-semibold p-3 text-left w-[20vw] xs:max-lg:text-base xs:max-lg:w-[40vw]'>Amount:</label>
           <input
             className='w-[40vw] h-[5vh] rounded-sm text-black px-2' 
             type="text"
