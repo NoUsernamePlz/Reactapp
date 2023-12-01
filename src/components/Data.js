@@ -44,7 +44,7 @@ const Data = () => {
       </table>
 
        {/* piechart code starts here */}
-       
+
       <ResponsiveContainer width="100%" height={500}>
         <h2 className="text-xl font-bold p-8 m-8">Chart:</h2>
         <PieChart>
@@ -53,7 +53,7 @@ const Data = () => {
             data={data}
             cx="50%"
             cy="50%"
-            outerRadius={200}
+            outerRadius={160}
             fill="#8884d8"
             label
           >
