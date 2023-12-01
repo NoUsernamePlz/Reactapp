@@ -12,7 +12,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <nav className=" w-[100%] h-[12vh] z-40 flex items-center justify-around font-semibold text-gray-800 bg-white shadow-md font-sans sticky top-0 left-0 z-100 py-1 ">
+    <nav className=" w-[100vw] h-[12vh] z-40 flex items-center justify-around font-semibold text-gray-800 bg-white shadow-md font-sans sticky top-0 left-0 z-100 py-1 ">
       <div className="flex-grow flex justify-start">
         <div className="flex items-center space-x-4  xs:space-x-0 ">
           <div
@@ -28,7 +28,7 @@ const Navbar = () => {
 
           <ul
             className={`lg:flex items-center sm:max-lg:py-5 md:pb-0  absolute lg:static list-none text-base opacity-100  left-0 right-0 w-[100vw] lg:w-auto md:pl-8  bg-white xs:max-lg:w-[100%] transition-all duration-500 ease-in ${
-              open ? "top-[-10px] left-[-10px] px-[20vw] md:max-lg:[30vw] " : "top-[-490px]"
+              open ? "top-[-10px]  px-[20vw]  " : "top-[-490px]"
             } `}
           >
             {Links.map((link) => (
